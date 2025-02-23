@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fa98f61-8369-4575-be76-5316c7df88b7" name="Changes" comment="update branch for push events from master to production">
+      <change afterPath="$PROJECT_DIR$/sig/greeenboii/options.rbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sig/greeenboii/search.rbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rubocop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exe/greeenboii" beforeDir="false" afterPath="$PROJECT_DIR$/exe/greeenboii" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greeenboii.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/greeenboii.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/greeenboii.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/greeenboii.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sig/greeenboii.rbs" beforeDir="false" afterPath="$PROJECT_DIR$/sig/greeenboii.rbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="RBS Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740310037191</updated>
-      <workItem from="1740310038341" duration="9845000" />
+      <workItem from="1740310038341" duration="10887000" />
     </task>
     <task id="LOCAL-00001" summary="update branch for push events from master to production">
       <option name="closed" value="true" />

@@ -1,0 +1,5 @@
+module Greeenboii
+  class Options
+    def self.show_options: () -> void
+  end
+end

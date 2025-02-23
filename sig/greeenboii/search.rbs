@@ -1,0 +1,11 @@
+module Greeenboii
+  class Search
+    SEARCH_ENGINES: Hash[String, String]
+
+    def self.scrape_links: (String engine, String url) -> Array[String]
+
+    def self.display_results: (Array[{ engine: String, links: Array[String] }]) -> void
+
+    def self.perform_search: () -> void
+  end
+end
