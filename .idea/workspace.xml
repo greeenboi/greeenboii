@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fa98f61-8369-4575-be76-5316c7df88b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/greeenboii.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exe/greeenboii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ext/greeenboii/extconf.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ext/greeenboii/greeenboii.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ext/greeenboii/greeenboii.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greeenboii.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/greeenboii.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/greeenboii/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sig/greeenboii.rbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_greeenboii.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +28,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/suvan/Downloads/cli-kit-example-main-yee/cli-kit-example-main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740310037191</updated>
-      <workItem from="1740310038341" duration="392000" />
+      <workItem from="1740310038341" duration="1196000" />
     </task>
     <servers />
   </component>

@@ -8,15 +8,14 @@ Gem::Specification.new do |spec|
   spec.authors = ["greeenboi"]
   spec.email = ["suvan.gowrishanker.204@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Greeenboii is a cli tool that i will use to perform all kinds of scripts that i use daily"
+  spec.description = "Greeenboii will have several features that i will use to perform daily tasks"
+  spec.homepage = "https://www.suvangs.tech"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.1.0"
-
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.required_ruby_version = ">= 3.2.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["github_repo"] = "ssh://<github_repo>"
   spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
   spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
