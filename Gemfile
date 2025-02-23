@@ -20,3 +20,5 @@ gem "tapioca", require: false, group: %i[development test]
 gem "console_table"
 gem "nokogiri"
 gem "httparty"
+
+gem "cli-ui"

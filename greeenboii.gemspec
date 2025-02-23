@@ -34,8 +34,10 @@ Gem::Specification.new do |spec|
   spec.extensions = ["ext/greeenboii/extconf.rb"]
 
   # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
-
+  spec.add_dependency "cli-ui", "~> 2.3.0"
+  spec.add_dependency "console_table", "~> 0.3.1"
+  spec.add_dependency "nokogiri", "~> 1.18.3"
+  spec.add_dependency "httparty", "~> 0.22.0"
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
   spec.metadata["rubygems_mfa_required"] = "true"
