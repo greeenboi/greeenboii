@@ -12,3 +12,7 @@ gem "rake-compiler"
 gem "minitest", "~> 5.16"
 
 gem "rubocop", "~> 1.21"
+
+gem 'sorbet', :group => :development
+gem 'sorbet-runtime'
+gem 'tapioca', require: false, :group => [:development, :test]

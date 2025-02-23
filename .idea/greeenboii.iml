@@ -22,9 +22,9 @@
     <orderEntry type="library" scope="PROVIDED" name="rainbow (v3.1.1, ruby-3.2.4-p170) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.2.1, ruby-3.2.4-p170) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.10.0, ruby-3.2.4-p170) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rubocop (v1.71.2, ruby-3.2.4-p170) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop-ast (v1.38.0, ruby-3.2.4-p170) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby-progressbar (v1.13.0, ruby-3.2.4-p170) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thor (v1.3.2, ruby-3.2.4-p170) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="unicode-display_width (v3.1.4, ruby-3.2.4-p170) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="unicode-emoji (v4.0.4, ruby-3.2.4-p170) [gem]" level="application" />
   </component>
