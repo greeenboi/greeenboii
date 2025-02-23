@@ -2,7 +2,7 @@
 
 require "test_helper"
 
-class TestGreeenboii < Minitest::Test
+class TestGreeenboii < PrettyPrint::Text
   def test_that_it_has_a_version_number
     refute_nil ::Greeenboii::VERSION
   end
