@@ -1,28 +1,22 @@
 # Greeenboii
 
-TODO: Delete this and the text below, and describe your gem
+Greeeenboii is a very helpful cli tool that i use for myself. It has all the different things that I consider to be cool to have inside your terminal
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/greeenboii`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Upcoming
+
+![image](https://github.com/user-attachments/assets/608b3689-627e-441c-a951-31d876758bd0)
+
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
-Install the gem and add to the application's Gemfile by executing:
-
-```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-```
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-```
+For now the gem is not for public use, though you are free to clone the repo and build it yourself
 
 ## Usage
 
-TODO: Write usage instructions here
+Just write the command and you will see an interface.
+```sh
+greeenboii
+```
 
 ## Development
 
@@ -32,7 +26,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/greeenboii. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/greeenboii/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/greeenboi/greeenboii. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/greeenboii/blob/master/CODE_OF_CONDUCT.md) and the [contributing guidelines](https://github.com/greeenboi/greeenboii/blob/main/CONTRIBUTING.md).
 
 ## License
 
