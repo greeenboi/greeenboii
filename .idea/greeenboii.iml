@@ -15,6 +15,7 @@
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.6.3, ruby-3.2.4-p170) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v2.10.1, ruby-3.2.4-p170) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="language_server-protocol (v3.17.0.4, ruby-3.2.4-p170) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.5, ruby-3.2.4-p170) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.25.4, ruby-3.2.4-p170) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="parallel (v1.26.3, ruby-3.2.4-p170) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="parser (v3.3.7.1, ruby-3.2.4-p170) [gem]" level="application" />

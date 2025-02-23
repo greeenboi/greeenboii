@@ -11,3 +11,6 @@
 *.o
 *.a
 mkmf.log
+
+# Ignore the built gems
+*.gem
