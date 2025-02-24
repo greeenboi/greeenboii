@@ -2,6 +2,44 @@ AllCops:
   TargetRubyVersion: 3.1
   NewCops: enable
 
+require:
+  - rubocop-sorbet
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# This doesn't understand that <<~ doesn't exist in 2.0
+Layout/HeredocIndentation:
+  Enabled: false
+
+# This doesn't take into account retrying from an exception
+Lint/SuppressedException:
+  Enabled: false
+
+# allow String.new to create mutable strings
+Style/EmptyLiteral:
+  Enabled: false
+
+# allow the use of globals which makes sense in a CLI app like this
+Style/GlobalVars:
+  Enabled: false
+
+# allow using %r{} for regexes
+Style/RegexpLiteral:
+  Enabled: false
+
+# allow readable Dev::Util.begin formatting
+Style/MultilineBlockChain:
+  Enabled: false
+
+# we prefer rescue to align with the beginning of the line containing begin, not begin itself
+Layout/RescueEnsureAlignment:
+  Enabled: false
+
+# We heavily manage output on purpose
+Style/GlobalStdStream:
+  Enabled: false
+
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 

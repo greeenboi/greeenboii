@@ -70,7 +70,7 @@ module Greeenboii
 
           title = result.css("h3").text.strip
           url = link["href"]
-          snippet = result.css(".VwiC3b").text.strip
+          result.css(".VwiC3b").text.strip
 
           puts "Debug: Found Google result - Title: #{title}"
           results << url if url.start_with?("http")
@@ -100,6 +100,7 @@ module Greeenboii
       puts "Debug: Total results found: #{results.length}"
       results.take(8)
     end
+
     def self.display_results(results)
       CLI::UI.frame_style = :bracket
       CLI::UI::Frame.open(CLI::UI.fmt("{{green:Search Results}}")) do
@@ -121,13 +122,13 @@ module Greeenboii
     private def setup_database
       db = SQLite3::Database.new("greeenboii_todo.db")
       db.execute <<~SQL
-      CREATE TABLE IF NOT EXISTS todos (
-        id INTEGER PRIMARY KEY,
-        title TEXT NOT NULL,
-        completed BOOLEAN DEFAULT 0,
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-      )
-    SQL
+        CREATE TABLE IF NOT EXISTS todos (
+          id INTEGER PRIMARY KEY,
+          title TEXT NOT NULL,
+          completed BOOLEAN DEFAULT 0,
+          created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+        )
+      SQL
       db
     end
 
@@ -185,7 +186,7 @@ module Greeenboii
     end
 
     def show_menu
-      CLI::UI::Frame.divider('{{v}} Todo List')
+      CLI::UI::Frame.divider("{{v}} Todo List")
       loop do
         CLI::UI::Prompt.ask("Todo List Options:") do |handler|
           handler.option("List Tasks")   { list_tasks }
@@ -204,12 +205,12 @@ module Greeenboii
       CLI::UI::Prompt.instructions_color = CLI::UI::Color::GRAY
 
       CLI::UI::Prompt.ask("Choose an option:") do |handler|
-        handler.option("{{gray:Search Files}}")    { |selection| puts "Placeholder, Replaced soon. #{selection}" }
-        handler.option("{{gray:Search Directory}}")   { |selection| puts "Placeholder, Replaced soon. #{selection}" }
-        handler.option("{{gray:Search Content}}")    { |selection| puts "Placeholder, Replaced soon. #{selection}" }
-        handler.option("{{yellow:Todo List}}")     { |_selection| TodoList.new.show_menu }
-        handler.option("{{cyan:Search Engine}}")    { |_selection| Search.perform_search }
-        handler.option("{{red:Exit}}")               { |_selection| exit }
+        handler.option("{{gray:Search Files}}") { |selection| puts "Placeholder, Replaced soon. #{selection}" }
+        handler.option("{{gray:Search Directory}}") { |selection| puts "Placeholder, Replaced soon. #{selection}" }
+        handler.option("{{gray:Search Content}}") { |selection| puts "Placeholder, Replaced soon. #{selection}" }
+        handler.option("{{yellow:Todo List}}") { |_selection| TodoList.new.show_menu }
+        handler.option("{{cyan:Search Engine}}") { |_selection| Search.perform_search }
+        handler.option("{{red:Exit}}") { |_selection| exit }
       end
     end
   end
