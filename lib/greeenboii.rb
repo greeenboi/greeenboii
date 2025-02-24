@@ -8,6 +8,8 @@ require "console_table"
 require "nokogiri"
 require "httparty"
 
+require "sqlite3"
+
 module Greeenboii
   class Error < StandardError; end
 
@@ -111,6 +113,92 @@ module Greeenboii
     end
   end
 
+  class TodoList
+    def initialize
+      @db = setup_database
+    end
+
+    private def setup_database
+      db = SQLite3::Database.new("greeenboii_todo.db")
+      db.execute <<~SQL
+      CREATE TABLE IF NOT EXISTS todos (
+        id INTEGER PRIMARY KEY,
+        title TEXT NOT NULL,
+        completed BOOLEAN DEFAULT 0,
+        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+      )
+    SQL
+      db
+    end
+
+    def add_task
+      title = CLI::UI.ask("Enter task title:")
+      return if title.empty?
+
+      @db.execute("INSERT INTO todos (title) VALUES (?)", [title])
+      puts CLI::UI.fmt "{{green:✓}} Task added successfully!"
+    end
+
+    def list_tasks
+      tasks = @db.execute("SELECT id, title, completed, created_at FROM todos ORDER BY created_at DESC")
+      if tasks.empty?
+        puts CLI::UI.fmt "{{yellow:⚠}} No tasks found"
+        return
+      end
+
+      ConsoleTable.define(%w[ID Title Status Created]) do |table|
+        tasks.each do |id, title, completed, created_at|
+          status = completed == 1 ? "{{green:✓}} Done" : "{{red:✗}} Pending"
+          table << [id, title, CLI::UI.fmt(status), created_at]
+        end
+      end
+    end
+
+    def mark_done
+      list_tasks
+      id = CLI::UI.ask("Enter task ID to mark as done:")
+      return if id.empty?
+
+      @db.execute("UPDATE todos SET completed = 1 WHERE id = ?", [id])
+      puts CLI::UI.fmt "{{green:✓}} Task marked as done!"
+    end
+
+    def delete_task
+      list_tasks
+      id = CLI::UI.ask("Enter task ID to delete:")
+      return if id.empty?
+
+      @db.execute("DELETE FROM todos WHERE id = ?", [id])
+      puts CLI::UI.fmt "{{green:✓}} Task deleted!"
+    end
+
+    def update_task
+      list_tasks
+      id = CLI::UI.ask("Enter task ID to update:")
+      return if id.empty?
+
+      title = CLI::UI.ask("Enter new title:")
+      return if title.empty?
+
+      @db.execute("UPDATE todos SET title = ? WHERE id = ?", [title, id])
+      puts CLI::UI.fmt "{{green:✓}} Task updated!"
+    end
+
+    def show_menu
+      CLI::UI::Frame.divider('{{v}} Todo List')
+      loop do
+        CLI::UI::Prompt.ask("Todo List Options:") do |handler|
+          handler.option("List Tasks")   { list_tasks }
+          handler.option("Add Task")     { add_task }
+          handler.option("Mark Done")    { mark_done }
+          handler.option("Update Task")  { update_task }
+          handler.option("Delete Task")  { delete_task }
+          handler.option("Exit")         { return }
+        end
+      end
+    end
+  end
+
   class Options
     def self.show_options
       CLI::UI::Prompt.instructions_color = CLI::UI::Color::GRAY
@@ -119,8 +207,8 @@ module Greeenboii
         handler.option("{{gray:Search Files}}")    { |selection| puts "Placeholder, Replaced soon. #{selection}" }
         handler.option("{{gray:Search Directory}}")   { |selection| puts "Placeholder, Replaced soon. #{selection}" }
         handler.option("{{gray:Search Content}}")    { |selection| puts "Placeholder, Replaced soon. #{selection}" }
-        handler.option("{{gray:Search History}}")   { |selection| puts "Placeholder, Replaced soon. #{selection}" }
-        handler.option("{{cyan:Network Search}}")    { |_selection| Search.perform_search }
+        handler.option("{{yellow:Todo List}}")     { |_selection| TodoList.new.show_menu }
+        handler.option("{{cyan:Search Engine}}")    { |_selection| Search.perform_search }
         handler.option("{{red:Exit}}")               { |_selection| exit }
       end
     end
