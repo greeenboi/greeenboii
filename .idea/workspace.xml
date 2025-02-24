@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa98f61-8369-4575-be76-5316c7df88b7" name="Changes" comment="Add RBS classes for Error, Options, and Search modules">
+    <list default="true" id="0fa98f61-8369-4575-be76-5316c7df88b7" name="Changes" comment="Add Makefile and main.c for greeenboii module initialization">
+      <change beforePath="$PROJECT_DIR$/.idea/greeenboii.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/greeenboii.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exe/greeenboii" beforeDir="false" afterPath="$PROJECT_DIR$/exe/greeenboii" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greeenboii.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/greeenboii.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/greeenboii.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/greeenboii.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/greeenboii/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/greeenboii/version.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,21 +27,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "greeenboi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;greeenboi&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/greeenboi/greeenboii.git",
-    "accountId": "978466ca-1190-4215-a801-ef0a654296e3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/greeenboi/greeenboii.git&quot;,
+    &quot;accountId&quot;: &quot;978466ca-1190-4215-a801-ef0a654296e3&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2tRLehb4s0tbSzZEro6guxVspsh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Ruby.greeenboii.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -61,6 +62,11 @@
     "ruby.structure.view.model.defaults.configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -79,7 +85,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740310037191</updated>
-      <workItem from="1740310038341" duration="12118000" />
+      <workItem from="1740310038341" duration="13422000" />
+      <workItem from="1740370363540" duration="1662000" />
     </task>
     <task id="LOCAL-00001" summary="update branch for push events from master to production">
       <option name="closed" value="true" />
@@ -97,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740331580301</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add cli-ui gem dependency and update version to 0.1.2">
+      <option name="closed" value="true" />
+      <created>1740333019050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740333019050</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add Makefile and main.c for greeenboii module initialization">
+      <option name="closed" value="true" />
+      <created>1740333983898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740333983898</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +129,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update branch for push events from master to production" />
     <MESSAGE value="Add RBS classes for Error, Options, and Search modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add RBS classes for Error, Options, and Search modules" />
+    <MESSAGE value="Add cli-ui gem dependency and update version to 0.1.2" />
+    <MESSAGE value="Add Makefile and main.c for greeenboii module initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Makefile and main.c for greeenboii module initialization" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/greeenboii@greeenboii.rcov" NAME="greeenboii Coverage Results" MODIFIED="1740333917319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="greeenboii" />
   </component>
 </project>

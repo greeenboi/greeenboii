@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    greeenboii (0.1.2)
+    greeenboii (0.1.5)
       cli-ui (~> 2.3.0)
       console_table (~> 0.3.1)
       httparty (~> 0.22.0)
@@ -80,6 +80,10 @@ GEM
       rbi (>= 0.2.3)
       sorbet-static-and-runtime (>= 0.5.10187)
       thor (>= 0.19.2)
+    sqlite3 (2.6.0-aarch64-linux-gnu)
+    sqlite3 (2.6.0-arm64-darwin)
+    sqlite3 (2.6.0-x86_64-darwin)
+    sqlite3 (2.6.0-x86_64-linux-gnu)
     tapioca (0.16.11)
       benchmark
       bundler (>= 2.2.25)
@@ -116,6 +120,7 @@ DEPENDENCIES
   rubocop (~> 1.21)
   sorbet
   sorbet-runtime
+  sqlite3
   tapioca
 
 BUNDLED WITH

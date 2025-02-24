@@ -22,3 +22,5 @@ gem "nokogiri"
 gem "httparty"
 
 gem "cli-ui"
+
+gem "sqlite3"
