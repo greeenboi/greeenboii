@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa98f61-8369-4575-be76-5316c7df88b7" name="Changes" comment="Add Makefile and main.c for greeenboii module initialization">
-      <change afterPath="$PROJECT_DIR$/sig/greeenboii/todo_list.rbs" afterDir="false" />
+    <list default="true" id="0fa98f61-8369-4575-be76-5316c7df88b7" name="Changes" comment="Add RuboCop configuration for Sorbet and update gem dependencies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.rubocop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exe/greeenboii" beforeDir="false" afterPath="$PROJECT_DIR$/exe/greeenboii" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greeenboii.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/greeenboii.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/greeenboii.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/greeenboii.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/greeenboii/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/greeenboii/version.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorbet/tapioca/require.rb" beforeDir="false" afterPath="$PROJECT_DIR$/sorbet/tapioca/require.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +87,7 @@
       <workItem from="1740310038341" duration="13422000" />
       <workItem from="1740370363540" duration="1955000" />
       <workItem from="1740374525187" duration="497000" />
-      <workItem from="1740375046749" duration="384000" />
+      <workItem from="1740375046749" duration="938000" />
     </task>
     <task id="LOCAL-00001" summary="update branch for push events from master to production">
       <option name="closed" value="true" />
@@ -124,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740333983898</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add RuboCop configuration for Sorbet and update gem dependencies">
+      <option name="closed" value="true" />
+      <created>1740375460765</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740375460765</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +140,8 @@
     <MESSAGE value="Add RBS classes for Error, Options, and Search modules" />
     <MESSAGE value="Add cli-ui gem dependency and update version to 0.1.2" />
     <MESSAGE value="Add Makefile and main.c for greeenboii module initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Makefile and main.c for greeenboii module initialization" />
+    <MESSAGE value="Add RuboCop configuration for Sorbet and update gem dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add RuboCop configuration for Sorbet and update gem dependencies" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/greeenboii@greeenboii.rcov" NAME="greeenboii Coverage Results" MODIFIED="1740333917319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="greeenboii" />
