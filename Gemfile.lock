@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    greeenboii (0.1.5)
+    greeenboii (0.1.6)
       cli-ui (~> 2.3.0)
       console_table (~> 0.3.1)
       httparty (~> 0.22.0)

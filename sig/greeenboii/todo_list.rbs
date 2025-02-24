@@ -1,0 +1,30 @@
+module SQLite3
+  class Database
+    def initialize: (String) -> void
+    def execute: (String, ?Array[untyped]) -> Array[Array[untyped]]
+  end
+end
+
+module Greeenboii
+  class TodoList
+    @db: SQLite3::Database
+
+    def initialize: -> void
+
+    def add_task: -> (nil | untyped)
+
+    def list_tasks: -> (nil | Array[Array[untyped]])
+
+    def mark_done: -> (nil | untyped)
+
+    def delete_task: -> (nil | untyped)
+
+    def update_task: -> (nil | untyped)
+
+    def show_menu: -> nil
+
+    private
+
+    def setup_database: -> SQLite3::Database
+  end
+end

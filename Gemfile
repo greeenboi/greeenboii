@@ -18,8 +18,8 @@ gem "sorbet-runtime"
 gem "tapioca", require: false, group: %i[development test]
 
 gem "console_table"
-gem "nokogiri"
 gem "httparty"
+gem "nokogiri"
 
 gem "cli-ui"
 
