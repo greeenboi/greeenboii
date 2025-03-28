@@ -13,6 +13,83 @@ require "sqlite3"
 module Greeenboii
   class Error < StandardError; end
 
+  class WebsiteBuilder
+    def self.build_website
+      CLI::UI::Frame.open("{{v}} Website Builder") do
+        CLI::UI::Prompt.ask("Choose a template:") do |handler|
+          handler.option("{{green:NextJs-CoolStack}}") { |selection| create_nextjs(selection) }
+          handler.option("{{yellow:Hono-API}}") { |selection| create_hono(selection) }
+          handler.option("{{blue:Rails}}") { |selection| create_rails(selection) }
+        end
+      end
+    end
+    def self.create_nextjs(selection)
+      location = CLI::UI.ask("Where to install?", default: ".")
+      CLI::UI.puts("Checking prerequisites...")
+
+      node_version = `node -v`.strip rescue nil
+      unless node_version
+        CLI::UI.puts(CLI::UI.fmt("{{x}} Node.js not found. Please install Node.js first"))
+        return
+      end
+
+      # Check for git
+      git_version = `git --version`.strip rescue nil
+      unless git_version
+        CLI::UI.puts(CLI::UI.fmt("{{x}} Git not found. Please install Git first"))
+        return
+      end
+
+      setup_success = false
+      CLI::UI::Spinner.spin("Cloning NextJS + Supabase template") do |spinner|
+        begin
+          unless Dir.exist?(location)
+            Dir.mkdir(location)
+          end
+
+          clone_result = system("git clone https://github.com/greeenboi/nextjs-supabase-template.git #{location}")
+
+          unless clone_result
+            spinner.update_title("Setup failed: Failed to clone repository")
+            CLI::UI.puts(CLI::UI.fmt("{{x}} Error: Failed to clone repository"))
+            next # Use next instead of return
+          end
+
+          spinner.update_title("Repository cloned successfully!")
+
+          # Install dependencies
+          Dir.chdir(location) do
+            spinner.update_title("Installing dependencies...")
+
+            package_manager = if system("bun -v > /dev/null 2>&1")
+                                "bun"
+                              elsif system("pnpm -v > /dev/null 2>&1")
+                                "pnpm"
+                              else
+                                "npm"
+                              end
+
+            system("#{package_manager} install")
+            spinner.update_title("Dependencies installed with #{package_manager}")
+          end
+
+          setup_success = true
+        rescue StandardError => e
+          spinner.update_title("Setup failed: #{e.message}")
+          CLI::UI.puts(CLI::UI.fmt("{{x}} Error: #{e.message}"))
+          # No return here
+        end
+      end
+
+      if setup_success
+        CLI::UI.puts(CLI::UI.fmt("{{v}} Next.js + Supabase template installed successfully!"))
+        CLI::UI.puts(CLI::UI.fmt("{{*}} To start the development server:"))
+        CLI::UI.puts(CLI::UI.fmt("  cd #{location}"))
+        CLI::UI.puts(CLI::UI.fmt("  npm run dev"))
+      end
+    end
+  end
+
   class Search
     SEARCH_ENGINES = {
       "Google" => "https://www.google.com/search?client=opera-gx&q= ",
@@ -207,7 +284,7 @@ module Greeenboii
       CLI::UI::Prompt.ask("Choose an option:") do |handler|
         handler.option("{{gray:Search Files}}") { |selection| puts "Placeholder, Replaced soon. #{selection}" }
         handler.option("{{gray:Search Directory}}") { |selection| puts "Placeholder, Replaced soon. #{selection}" }
-        handler.option("{{gray:Search Content}}") { |selection| puts "Placeholder, Replaced soon. #{selection}" }
+        handler.option("{{green:Website Builder}}") { |_selection| WebsiteBuilder.build_website }
         handler.option("{{yellow:Todo List}}") { |_selection| TodoList.new.show_menu }
         handler.option("{{cyan:Search Engine}}") { |_selection| Search.perform_search }
         handler.option("{{red:Exit}}") { |_selection| exit }
