@@ -28,6 +28,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/greeenboi/greeenboii. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/greeenboii/blob/master/CODE_OF_CONDUCT.md) and the [contributing guidelines](https://github.com/greeenboi/greeenboii/blob/main/CONTRIBUTING.md).
 
+<details>
+<summary>Stuffs ;)</summary>
+https://github.com/aksharbarchha/Music-CLI/blob/master/Music-CLI.go
+</details>
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
