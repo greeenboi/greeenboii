@@ -1,0 +1,27 @@
+2025-05-06 12:20:42 +0530 - RESPONSE (200)
+Body: {"baton":null,"base_url":null,"results":[{"type":"ok","response":{"type":"execute","result":{"cols":[],"rows":[],"affected_row_count":0,"last_insert_rowid":null,"replication_index":null,"rows_read":0,"rows_written":0,"query_duration_ms":0.128}}},{"type":"ok","response":{"type":"close"}}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:20:43 +0530 - RESPONSE (200)
+Body: {"baton":null,"base_url":null,"results":[{"type":"ok","response":{"type":"execute","result":{"cols":[],"rows":[],"affected_row_count":1,"last_insert_rowid":"1","replication_index":null,"rows_read":0,"rows_written":2,"query_duration_ms":119.604}}},{"type":"ok","response":{"type":"close"}}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:20:46 +0530 - RESPONSE (200)
+Body: {"baton":null,"base_url":null,"results":[{"type":"ok","response":{"type":"execute","result":{"cols":[],"rows":[],"affected_row_count":0,"last_insert_rowid":null,"replication_index":null,"rows_read":0,"rows_written":0,"query_duration_ms":0.133}}},{"type":"ok","response":{"type":"close"}}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:20:47 +0530 - RESPONSE (200)
+Body: {"baton":null,"base_url":null,"results":[{"type":"ok","response":{"type":"execute","result":{"cols":[{"name":"gist_id","decltype":"TEXT"},{"name":"title","decltype":"TEXT"},{"name":"url","decltype":"TEXT"},{"name":"description","decltype":"TEXT"},{"name":"tags","decltype":"TEXT"},{"name":"created_at","decltype":"TEXT"}],"rows":[[{"type":"text","value":"2fc9fa3eac1f0ddeb2f0b23aa21bbe4b"},{"type":"text","value":"compilerdesign"},{"type":"text","value":"https://gist.github.com/greeenboi/2fc9fa3eac1f0ddeb2f0b23aa21bbe4b"},{"type":"text","value":"nil"},{"type":"text","value":"nil"},{"type":"text","value":"2025-05-06 12:20:41"}]],"affected_row_count":0,"last_insert_rowid":null,"replication_index":null,"rows_read":2,"rows_written":0,"query_duration_ms":0.197}}},{"type":"ok","response":{"type":"close"}}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:35:11 +0530 - RESPONSE (200)
+Body: {"baton":null,"base_url":null,"results":[{"type":"ok","response":{"type":"execute","result":{"cols":[{"name":"1","decltype":null}],"rows":[[{"type":"integer","value":"1"}]],"affected_row_count":0,"last_insert_rowid":null,"replication_index":null,"rows_read":0,"rows_written":0,"query_duration_ms":0.065}}},{"type":"ok","response":{"type":"close"}}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:35:14 +0530 - RESPONSE (200)
+Body: {"baton":null,"base_url":null,"results":[{"type":"ok","response":{"type":"execute","result":{"cols":[],"rows":[],"affected_row_count":0,"last_insert_rowid":null,"replication_index":null,"rows_read":0,"rows_written":0,"query_duration_ms":0.151}}},{"type":"ok","response":{"type":"close"}}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:35:15 +0530 - RESPONSE (200)
+Body: {"baton":null,"base_url":null,"results":[{"type":"ok","response":{"type":"execute","result":{"cols":[{"name":"gist_id","decltype":"TEXT"},{"name":"title","decltype":"TEXT"},{"name":"url","decltype":"TEXT"},{"name":"description","decltype":"TEXT"},{"name":"tags","decltype":"TEXT"},{"name":"created_at","decltype":"TEXT"}],"rows":[[{"type":"text","value":"2fc9fa3eac1f0ddeb2f0b23aa21bbe4b"},{"type":"text","value":"compilerdesign"},{"type":"text","value":"https://gist.github.com/greeenboi/2fc9fa3eac1f0ddeb2f0b23aa21bbe4b"},{"type":"text","value":"nil"},{"type":"text","value":"nil"},{"type":"text","value":"2025-05-06 12:20:41"}]],"affected_row_count":0,"last_insert_rowid":null,"replication_index":null,"rows_read":2,"rows_written":0,"query_duration_ms":0.146}}},{"type":"ok","response":{"type":"close"}}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:38:06 +0530 - RESPONSE (200)
+Body: {"baton":null,"base_url":null,"results":[{"type":"ok","response":{"type":"execute","result":{"cols":[],"rows":[],"affected_row_count":0,"last_insert_rowid":null,"replication_index":null,"rows_read":0,"rows_written":0,"query_duration_ms":0.122}}},{"type":"ok","response":{"type":"close"}}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:38:07 +0530 - RESPONSE (200)
+Body: {"baton":null,"base_url":null,"results":[{"type":"ok","response":{"type":"execute","result":{"cols":[{"name":"gist_id","decltype":"TEXT"},{"name":"title","decltype":"TEXT"},{"name":"url","decltype":"TEXT"},{"name":"description","decltype":"TEXT"},{"name":"tags","decltype":"TEXT"},{"name":"created_at","decltype":"TEXT"}],"rows":[[{"type":"text","value":"2fc9fa3eac1f0ddeb2f0b23aa21bbe4b"},{"type":"text","value":"compilerdesign"},{"type":"text","value":"https://gist.github.com/greeenboi/2fc9fa3eac1f0ddeb2f0b23aa21bbe4b"},{"type":"text","value":"nil"},{"type":"text","value":"nil"},{"type":"text","value":"2025-05-06 12:20:41"}]],"affected_row_count":0,"last_insert_rowid":null,"replication_index":null,"rows_read":2,"rows_written":0,"query_duration_ms":0.227}}},{"type":"ok","response":{"type":"close"}}]}
+--------------------------------------------------------------------------------

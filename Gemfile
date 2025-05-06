@@ -13,9 +13,12 @@ gem "minitest", "~> 5.16"
 
 gem "rubocop", "~> 1.21"
 
-gem "sorbet", group: :development
-gem "sorbet-runtime"
-gem "tapioca", require: false, group: %i[development test]
+# gem "sorbet", group: :development, platforms: :ruby
+# gem "sorbet-runtime"
+# gem "tapioca", require: false, group: %i[development test]
+
+
+gem "dotenv", "~> 2.8"
 
 gem "console_table"
 gem "httparty"

@@ -1,0 +1,54 @@
+2025-05-06 12:20:41 +0530 - REQUEST to https://greeenboii-cli-db-greeenboi.aws-ap-south-1.turso.io/v2/pipeline
+SQL: CREATE TABLE IF NOT EXISTS gists (gist_id TEXT PRIMARY KEY, title TEXT NOT NULL, url TEXT NOT NULL, description TEXT, tags TEXT, created_at TEXT)
+Params: []
+Formatted Params: []
+Payload: {"requests":[{"type":"execute","stmt":{"sql":"CREATE TABLE IF NOT EXISTS gists (gist_id TEXT PRIMARY KEY, title TEXT NOT NULL, url TEXT NOT NULL, description TEXT, tags TEXT, created_at TEXT)","args":[]}},{"type":"close"}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:20:42 +0530 - REQUEST to https://greeenboii-cli-db-greeenboi.aws-ap-south-1.turso.io/v2/pipeline
+SQL: INSERT OR REPLACE INTO gists (gist_id, title, url, description, tags, created_at) VALUES (?, ?, ?, ?, ?, ?)
+Params: ["2fc9fa3eac1f0ddeb2f0b23aa21bbe4b", "compilerdesign", "https://gist.github.com/greeenboi/2fc9fa3eac1f0ddeb2f0b23aa21bbe4b", "nil", "nil", "2025-05-06 12:20:41"]
+Formatted Params: [{:type=>"text", :value=>"2fc9fa3eac1f0ddeb2f0b23aa21bbe4b"}, {:type=>"text", :value=>"compilerdesign"}, {:type=>"text", :value=>"https://gist.github.com/greeenboi/2fc9fa3eac1f0ddeb2f0b23aa21bbe4b"}, {:type=>"text", :value=>"nil"}, {:type=>"text", :value=>"nil"}, {:type=>"text", :value=>"2025-05-06 12:20:41"}]
+Payload: {"requests":[{"type":"execute","stmt":{"sql":"INSERT OR REPLACE INTO gists (gist_id, title, url, description, tags, created_at) VALUES (?, ?, ?, ?, ?, ?)","args":[{"type":"text","value":"2fc9fa3eac1f0ddeb2f0b23aa21bbe4b"},{"type":"text","value":"compilerdesign"},{"type":"text","value":"https://gist.github.com/greeenboi/2fc9fa3eac1f0ddeb2f0b23aa21bbe4b"},{"type":"text","value":"nil"},{"type":"text","value":"nil"},{"type":"text","value":"2025-05-06 12:20:41"}]}},{"type":"close"}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:20:46 +0530 - REQUEST to https://greeenboii-cli-db-greeenboi.aws-ap-south-1.turso.io/v2/pipeline
+SQL: CREATE TABLE IF NOT EXISTS gists (gist_id TEXT PRIMARY KEY, title TEXT NOT NULL, url TEXT NOT NULL, description TEXT, tags TEXT, created_at TEXT)
+Params: []
+Formatted Params: []
+Payload: {"requests":[{"type":"execute","stmt":{"sql":"CREATE TABLE IF NOT EXISTS gists (gist_id TEXT PRIMARY KEY, title TEXT NOT NULL, url TEXT NOT NULL, description TEXT, tags TEXT, created_at TEXT)","args":[]}},{"type":"close"}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:20:46 +0530 - REQUEST to https://greeenboii-cli-db-greeenboi.aws-ap-south-1.turso.io/v2/pipeline
+SQL: SELECT gist_id, title, url, description, tags, created_at FROM gists ORDER BY created_at DESC
+Params: []
+Formatted Params: []
+Payload: {"requests":[{"type":"execute","stmt":{"sql":"SELECT gist_id, title, url, description, tags, created_at FROM gists ORDER BY created_at DESC","args":[]}},{"type":"close"}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:35:11 +0530 - REQUEST to https://greeenboii-cli-db-greeenboi.aws-ap-south-1.turso.io/v2/pipeline
+SQL: SELECT 1
+Params: []
+Formatted Params: []
+Payload: {"requests":[{"type":"execute","stmt":{"sql":"SELECT 1","args":[]}},{"type":"close"}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:35:14 +0530 - REQUEST to https://greeenboii-cli-db-greeenboi.aws-ap-south-1.turso.io/v2/pipeline
+SQL: CREATE TABLE IF NOT EXISTS gists (gist_id TEXT PRIMARY KEY, title TEXT NOT NULL, url TEXT NOT NULL, description TEXT, tags TEXT, created_at TEXT)
+Params: []
+Formatted Params: []
+Payload: {"requests":[{"type":"execute","stmt":{"sql":"CREATE TABLE IF NOT EXISTS gists (gist_id TEXT PRIMARY KEY, title TEXT NOT NULL, url TEXT NOT NULL, description TEXT, tags TEXT, created_at TEXT)","args":[]}},{"type":"close"}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:35:14 +0530 - REQUEST to https://greeenboii-cli-db-greeenboi.aws-ap-south-1.turso.io/v2/pipeline
+SQL: SELECT gist_id, title, url, description, tags, created_at FROM gists ORDER BY created_at DESC
+Params: []
+Formatted Params: []
+Payload: {"requests":[{"type":"execute","stmt":{"sql":"SELECT gist_id, title, url, description, tags, created_at FROM gists ORDER BY created_at DESC","args":[]}},{"type":"close"}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:38:06 +0530 - REQUEST to https://greeenboii-cli-db-greeenboi.aws-ap-south-1.turso.io/v2/pipeline
+SQL: CREATE TABLE IF NOT EXISTS gists (gist_id TEXT PRIMARY KEY, title TEXT NOT NULL, url TEXT NOT NULL, description TEXT, tags TEXT, created_at TEXT)
+Params: []
+Formatted Params: []
+Payload: {"requests":[{"type":"execute","stmt":{"sql":"CREATE TABLE IF NOT EXISTS gists (gist_id TEXT PRIMARY KEY, title TEXT NOT NULL, url TEXT NOT NULL, description TEXT, tags TEXT, created_at TEXT)","args":[]}},{"type":"close"}]}
+--------------------------------------------------------------------------------
+2025-05-06 12:38:06 +0530 - REQUEST to https://greeenboii-cli-db-greeenboi.aws-ap-south-1.turso.io/v2/pipeline
+SQL: SELECT gist_id, title, url, description, tags, created_at FROM gists ORDER BY created_at DESC
+Params: []
+Formatted Params: []
+Payload: {"requests":[{"type":"execute","stmt":{"sql":"SELECT gist_id, title, url, description, tags, created_at FROM gists ORDER BY created_at DESC","args":[]}},{"type":"close"}]}
+--------------------------------------------------------------------------------
