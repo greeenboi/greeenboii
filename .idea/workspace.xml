@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa98f61-8369-4575-be76-5316c7df88b7" name="Changes" comment="Add WebsiteBuilder class for template installation and update data source configurations">
+    <list default="true" id="0fa98f61-8369-4575-be76-5316c7df88b7" name="Changes" comment="feat: Bump Version to 0.1.8">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/28fe2501-d682-44de-9f2e-9ff4bf02ce84.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/28fe2501-d682-44de-9f2e-9ff4bf02ce84/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/greeenboii.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/greeenboii.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/greeenboii.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/greeenboii.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/greeenboii/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/greeenboii/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greeenboii.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/greeenboii.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -59,7 +68,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -68,10 +77,11 @@
     ]
   }
 }</component>
+  <component name="RbsLanguageSettings" isCollectionManagementEnabled="true" />
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-RM-243.26053.19" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-RM-251.23774.429" />
       </set>
     </attachedChunks>
   </component>
@@ -95,7 +105,15 @@
       <workItem from="1742363661453" duration="2855000" />
       <workItem from="1743160011121" duration="413000" />
       <workItem from="1743160440458" duration="2415000" />
-      <workItem from="1743234713796" duration="516000" />
+      <workItem from="1743234713796" duration="1971000" />
+      <workItem from="1745012287544" duration="89000" />
+      <workItem from="1745012427976" duration="84000" />
+      <workItem from="1746456470803" duration="123000" />
+      <workItem from="1746456640164" duration="8304000" />
+      <workItem from="1746506150953" duration="1391000" />
+      <workItem from="1746509214519" duration="691000" />
+      <workItem from="1746513257984" duration="172000" />
+      <workItem from="1746513447860" duration="1217000" />
     </task>
     <task id="LOCAL-00001" summary="update branch for push events from master to production">
       <option name="closed" value="true" />
@@ -145,7 +163,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743162474872</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Refactor template installation process and update version to 0.1.7">
+      <option name="closed" value="true" />
+      <created>1743235413382</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743235413382</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: Bump Version to 0.1.8">
+      <option name="closed" value="true" />
+      <created>1746514635944</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746514635944</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +192,9 @@
     <MESSAGE value="Add Makefile and main.c for greeenboii module initialization" />
     <MESSAGE value="Add RuboCop configuration for Sorbet and update gem dependencies" />
     <MESSAGE value="Add WebsiteBuilder class for template installation and update data source configurations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add WebsiteBuilder class for template installation and update data source configurations" />
+    <MESSAGE value="Refactor template installation process and update version to 0.1.7" />
+    <MESSAGE value="feat: Bump Version to 0.1.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Bump Version to 0.1.8" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/greeenboii@greeenboii.rcov" NAME="greeenboii Coverage Results" MODIFIED="1743160185076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="greeenboii" />

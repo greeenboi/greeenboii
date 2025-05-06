@@ -14,3 +14,4 @@ mkmf.log
 
 # Ignore the built gems
 *.gem
+.env
