@@ -4,7 +4,7 @@ PATH
     greeenboii (0.1.8)
       cli-ui (~> 2.3.0)
       console_table (~> 0.3.1)
-      dotenv (~> 2.8)
+      dotenv (~> 2.8.1)
       httparty (~> 0.22.0)
       nokogiri (~> 1.18.3)
       sqlite3 (~> 2.6.0)
