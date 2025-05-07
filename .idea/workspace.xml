@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa98f61-8369-4575-be76-5316c7df88b7" name="Changes" comment="feat: Update .gitignore to exclude .env and enhance CHANGELOG with initial release details">
+    <list default="true" id="0fa98f61-8369-4575-be76-5316c7df88b7" name="Changes" comment="feat: Update dotenv dependency to version 2.8.1 in Gemfile and Gemfile.lock">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greeenboii.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/greeenboii.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/greeenboii.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/greeenboii.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/turso_requests.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/turso_requests.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/turso_responses.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/turso_responses.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/greeenboii/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/greeenboii/version.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,8 @@
       <workItem from="1746506150953" duration="1391000" />
       <workItem from="1746509214519" duration="691000" />
       <workItem from="1746513257984" duration="172000" />
-      <workItem from="1746513447860" duration="2623000" />
+      <workItem from="1746513447860" duration="3083000" />
+      <workItem from="1746546267759" duration="888000" />
     </task>
     <task id="LOCAL-00001" summary="update branch for push events from master to production">
       <option name="closed" value="true" />
@@ -196,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746514728060</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: Update dotenv dependency to version 2.8.1 in Gemfile and Gemfile.lock">
+      <option name="closed" value="true" />
+      <created>1746516235833</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746516235833</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +220,8 @@
     <MESSAGE value="chore: Update Gemfile to comment out Sorbet and add dotenv gem" />
     <MESSAGE value="feat: Update dependencies and bump required Ruby version to 3.3.0" />
     <MESSAGE value="feat: Update .gitignore to exclude .env and enhance CHANGELOG with initial release details" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Update .gitignore to exclude .env and enhance CHANGELOG with initial release details" />
+    <MESSAGE value="feat: Update dotenv dependency to version 2.8.1 in Gemfile and Gemfile.lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Update dotenv dependency to version 2.8.1 in Gemfile and Gemfile.lock" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/greeenboii@greeenboii.rcov" NAME="greeenboii Coverage Results" MODIFIED="1743160185076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="greeenboii" />
