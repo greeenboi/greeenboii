@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    greeenboii (0.1.8)
+    greeenboii (0.1.9)
       cli-ui (~> 2.3.0)
       console_table (~> 0.3.1)
       dotenv (~> 2.8.1)
